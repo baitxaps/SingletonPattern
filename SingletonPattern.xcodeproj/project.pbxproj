@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		77063A541D5E28290037A415 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77063A531D5E28290037A415 /* main.m */; };
+		77063A5C1D5E284A0037A415 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 77063A5B1D5E284A0037A415 /* Singleton.m */; };
+		77063A5F1D5E28990037A415 /* SubSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 77063A5E1D5E28990037A415 /* SubSingleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		77063A501D5E28290037A415 /* SingletonPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SingletonPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		77063A531D5E28290037A415 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77063A5A1D5E284A0037A415 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		77063A5B1D5E284A0037A415 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		77063A5D1D5E28990037A415 /* SubSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubSingleton.h; sourceTree = "<group>"; };
+		77063A5E1D5E28990037A415 /* SubSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubSingleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				77063A531D5E28290037A415 /* main.m */,
+				77063A5A1D5E284A0037A415 /* Singleton.h */,
+				77063A5B1D5E284A0037A415 /* Singleton.m */,
+				77063A5D1D5E28990037A415 /* SubSingleton.h */,
+				77063A5E1D5E28990037A415 /* SubSingleton.m */,
 			);
 			path = SingletonPattern;
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77063A5F1D5E28990037A415 /* SubSingleton.m in Sources */,
 				77063A541D5E28290037A415 /* main.m in Sources */,
+				77063A5C1D5E284A0037A415 /* Singleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

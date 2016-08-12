@@ -7,11 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Singleton.h"
+#import "SubSingleton.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+         NSLog(@"%@", [Singleton sharedInstance]);
+        
+        /**
+         * NSLog(@"%@", [Singleton new]);
+           NSLog(@"%@", [SubSingleton sharedInstance]);
+         */
+    
     }
     return 0;
 }
